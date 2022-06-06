@@ -1,6 +1,20 @@
 #!/bin/bash
 #ejercicio rebase onto
 
+####################################################
+# CREA UN Repositorio con la estructura            #
+#  A - B                                           #
+#   \                                              #
+#     D                                            #
+#      \                                           #
+#        C                                         #
+#  y propone cambiar a                             #
+#  A - B                                           #
+#   \   \                                          #
+#     D  C                                         #
+#####################################################
+
+
 mkdir $1
 cd $1
 git init
