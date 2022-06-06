@@ -3,16 +3,17 @@
 
 ####################################################
 # CREA UN Repositorio con la estructura            #
-#  A - B                                           #
-#   \                                              #
-#     D                                            #
-#      \                                           #
-#        C                                         #
+# master  A - B                                    #
+#          \                                       #
+# dev       D                                      #
+#            \                                     #
+# feat1       C                                    #
 #  y propone cambiar a                             #
-#  A - B                                           #
-#   \   \                                          #
-#     D  C                                         #
-#####################################################
+#                                                  #
+# master  A --------B                              #
+#          \         \                             #
+# dev       D  feat1  C                            #
+####################################################
 
 
 mkdir $1
@@ -22,7 +23,7 @@ echo "A" > f1.txt
 git add .
 git commit -m 'A'
 git config --global user.email "alumno@tknika.com"
-git config --global user.name "alumno"
+git config --global user.name "alumno"feat
 git config --global --add safe.directory /home/alumno/source/$1
 git commit -m 'A'
 git branch dev
@@ -32,7 +33,7 @@ git branch feat1
 git checkout feat1 
 git checkout dev
 git add .
-git commit -m 'D1'
+git commit -m 'D'
 git branch -d feat1
 git branch feat1
 git checkout feat1 
