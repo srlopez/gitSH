@@ -1,7 +1,8 @@
 #! /bin/bash
 #
 ###############################################
-# Ejecutar script con permisos de instalación #
+# Ejecutar script con permisos de instalación
+# VEase, usando sudo
 ###############################################
 #
 # Instalación de cURL
@@ -12,6 +13,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/trusted.gpg.d/gi
 # Actualizar el gestor de paquetes
 apt update
 # Instalar Git
-apt intall git
+apt install git
 # Instalar cliente GitHub
 apt install gh
