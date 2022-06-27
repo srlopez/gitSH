@@ -1,7 +1,8 @@
 #! /bin/bash
 #
 ###############################################
-# Ejecutar script con permisos de instalación #
+# Ejecutar script con permisos de instalación
+# VEase, usando sudo
 ###############################################
 #
 # Instalación de cURL
